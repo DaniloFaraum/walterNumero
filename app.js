@@ -17,6 +17,7 @@ function Chutar() {
 
     if (certo == true){
         result.innerHTML = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu5TCQgLBEMLYqs6AsPQYgaUvDJX0tYmlF7-heIlMF&s"></img>'
+        audioCerto.play()
     }
     else if (certo == "erro"){
         result.innerHTML = '<img src="https://cdn.dicionariopopular.com/imagens/como-voce-e-burro-caetano-veloso-cke.jpg"></img>'
@@ -28,7 +29,4 @@ function Chutar() {
     }
 }
 
-/*
-Aqui eu faço cosplay de Kani :)
-textContent
-*/
+// O Breaking Bad na real é os amigos que fizemos pelo caminho
